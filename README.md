@@ -28,27 +28,52 @@ c — количество оставшихся секунд.
 Решение на языке С:
 
 #define _CRT_SECURE_NO_WARNINGS 
+
 #include<stdio.h>
+
 #include<locale.h>
+
 #include<math.h>
+
 int task3() {
+
 	setlocale(LC_ALL, "");
+	
 	long c, m, ch, t;
+	
 	printf("Введите время в секундах \n");
+	
 	scanf("%ld", &t);
+	
 		ch = t / 3600;
+		
 		t = t % 3600;
+		
 		m = t / 60;
+		
 		c = t % 60;
+		
 		if (ch > 0) {
+		
 			printf("%ld час %ld минут %ld секунд\n", ch, m, c);
+			
 		}
+		
 		else {
+		
 			printf("%ld минут %ld секунд\n", m, c);
+			
 		}
+		
 	return 0;
+	
 }
+
 int main(){ 
+
 	task3();
+	
 	return 0;
+	
 }
+
