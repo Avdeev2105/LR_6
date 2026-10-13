@@ -22,6 +22,9 @@ c — количество оставшихся секунд.
 
 Блок схема: 
 
+<img width="422" height="682" alt="image" src="https://github.com/user-attachments/assets/36ea1359-d834-4e6f-a1c7-1c1481fa924c" />
+
+
 Решение на языке С:
 
 #define _CRT_SECURE_NO_WARNINGS 
