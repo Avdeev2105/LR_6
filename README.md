@@ -86,10 +86,10 @@ c — количество оставшихся секунд.
     
 }
 
-float a_se(float side) {
+    float a_se(float side) {
 
     return (side * side) / 2;
-}
+    }
 
 int check(double x, double y, int side) {
 
