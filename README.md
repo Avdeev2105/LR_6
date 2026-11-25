@@ -46,15 +46,15 @@ c — количество оставшихся секунд.
 
 **РЕШЕНИЕ НА ЯЗЫКЕ С**
 
-#define _CRT_SECURE_NO_WARNINGS
+    #define _CRT_SECURE_NO_WARNINGS
 
-#include <stdio.h>
+    #include <stdio.h>
 
-#include <stdlib.h>
+    #include <stdlib.h>
 
-#include<locale.h>
+    #include<locale.h>
 
-void d_st(int side, char sy) {
+    void d_st(int side, char sy) {
 
     for (int i = 0; i < side; i++) {
     
