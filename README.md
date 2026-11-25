@@ -27,13 +27,13 @@ c — количество оставшихся секунд.
 
 <img width="422" height="682" alt="image" src="https://github.com/user-attachments/assets/36ea1359-d834-4e6f-a1c7-1c1481fa924c" />
 
+**РЕШЕНИЕ НА ЯЗЫКЕ С**
 
-**Решение на языке С:**
- #define _CRT_SECURE_NO_WARNINGS
- #include <stdio.h>
- #include <stdlib.h>
- #include<locale.h>
- void d_st(int side, char sy) {
+#define _CRT_SECURE_NO_WARNINGS
+#include <stdio.h>
+#include <stdlib.h>
+#include<locale.h>
+void d_st(int side, char sy) {
     for (int i = 0; i < side; i++) {
         for (int j = 0; j < side - i - 1; j++) {
             printf(" ");
@@ -131,5 +131,5 @@ int main() {
     } while (choice != 0);
     return 0;
 }
-
+**Решение на языке С:**
 
