@@ -56,8 +56,8 @@ int check(double x, double y, int side) {
     if (side <= 0) return 0;
     if (y < 0) return 0;
     if (y > side - 1) return 0;
-    double center = side - 1;          
-    double versh = y;                   
+    double center = side - 1;
+    double versh = y;
     if (x >= center - versh - 0.5 && x <= center + versh + 0.5)
         return 1;
     return 0;
@@ -131,5 +131,5 @@ int main() {
     } while (choice != 0);
     return 0;
 }
-**Решение на языке С:**
+
 
