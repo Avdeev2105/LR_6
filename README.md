@@ -29,12 +29,11 @@ c — количество оставшихся секунд.
 
 
 **Решение на языке С:**
-
-#define _CRT_SECURE_NO_WARNINGS
-#include <stdio.h>
-#include <stdlib.h>
-#include<locale.h>
-void d_st(int side, char sy) {
+ #define _CRT_SECURE_NO_WARNINGS
+ #include <stdio.h>
+ #include <stdlib.h>
+ #include<locale.h>
+ void d_st(int side, char sy) {
     for (int i = 0; i < side; i++) {
         for (int j = 0; j < side - i - 1; j++) {
             printf(" ");
